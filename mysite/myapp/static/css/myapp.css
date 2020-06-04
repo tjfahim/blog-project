@@ -1,0 +1,32 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ramabhadra', sans-serif;
+
+.techfont{
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10px
+}
+.bigbrand{
+  font-size: 1.5em;
+}
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postdate{
+  text-align: center;
+}
+.posttitle{
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+.postcontent{
+  font-family: 'Montserrat';
+  font-size:1.5em;
+}
+.btn-comment{
+  position: absolute;
+  right: 0px;
+}

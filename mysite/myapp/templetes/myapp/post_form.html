@@ -1,0 +1,17 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<h1>New post</h1>
+<form class="post-form" action="" method="post">
+  {% csrf_token %}
+  {{form.as_p}}
+  <button type="submit" class="save btn btn-default">Sava</button>
+
+</form>
+
+<script type="text/javascript">
+  var editor = new mediumEditor('.editable');
+
+</script>
+
+{% endblock%}
